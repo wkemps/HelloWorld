@@ -2,18 +2,18 @@
 
 using namespace std;
 
-string getNumber();
+string getName();
 
 
 int main() {
     std::string temp;
 
-    temp = getNumber();
+    temp = getName();
     std::cout << "Hello " << temp << std::endl;
     return 0;
 }
 
-string getNumber()
+string getName()
 {
     string temp;
     cout << "Name? ";
